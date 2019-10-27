@@ -12,7 +12,7 @@ import EmployeeList from './components/employees/List'
 import EmployeeNew from './components/employees/New'
 import Employee from './components/employees/Employee'
 
-import Ticket from './components/tickets/Ticket'
+import TicketList from './components/tickets/List'
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
         <Route path="/employees/new" component={EmployeeNew} exact={true}/>
         <Route path="/employees/:id" component={Employee}/>
 
-        <Route path="/tickets" component={Ticket}/>
+        <Route path="/tickets" component={TicketList}/>
 
       </Switch>
     </div>
